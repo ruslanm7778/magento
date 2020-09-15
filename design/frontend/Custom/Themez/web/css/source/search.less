@@ -1,0 +1,64 @@
+.block-search .action.search.disabled, .block-search .action.search[disabled], fieldset[disabled] .block-search .action.search {
+    opacity: 1;
+}
+
+
+
+.block-search .control {
+	width: 180%;
+display: inline-flex;
+border: solid 1px #0ca7b7;
+padding-left: 5px;
+border-radius: 10px;
+}
+
+
+.block-search .control::before {
+	color: gray;
+    content: '\e615';
+    font-family: 'luma-icons';
+    font-size: 21px;
+}
+
+
+
+input[type="text"], input[type="password"], input[type="url"], input[type="tel"], input[type="search"], input[type="number"], input[type="datetime"], input[type="email"] {
+	border: none;
+padding-right:0px;
+width: 100%;
+box-shadow: none;
+}
+
+
+
+	
+.block-search input {
+    padding-right: 0;
+}
+
+
+
+.block-search .action.search::before { 
+color: white;
+content: 'Zoeken';
+font-family: 'luma-icons';
+padding: 1px 20px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+background: #8dc73f;
+border-right: 1px solid #0ca7b7;
+}
+
+
+.block-search .action.search {
+right: -206px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+background: #8dc73f;
+border-right: 1px solid #0ca7b7;
+}
+
+
+._keyfocus :focus, input:not([disabled]):focus, textarea:not([disabled]):focus, select:not([disabled]):focus {
+    box-shadow: none;
+}

@@ -1,0 +1,103 @@
+
+<div class="menu">
+
+
+<div class="menu__column">
+
+<ul>
+	<li><p><div class="headfoot">CONTACTGEGEEVENS</div></p></li>
+<li><p>PortofoonWEB<br>
+Zonnedauw 16<br>
+9202 PA Drachten</p></li>
+<li><p><img src="{{media url="phoneminmin.png"}}" alt="" width="10" height="20">0512 - 745 293 <br>
+	 <img src="{{media url="massegemin.png"}}" alt="" width="20" height="10">info@portofoonweb.nl</p></li>
+<li><p>K.v.K nr: 62061712 <br>
+BTW nr: NL854624624B01</p></li>
+<li></li>
+</ul>
+</div>
+
+
+<div class="menu__column">
+
+<ul>
+	<li><p><div class="headfoot">KLANTENSERVICE</div></p></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Over PortofoonWEB</a></li>
+<li><a href="#">Offerte aanvraag</a></li>
+<li><a href="#">Defect en Retour</a></li>
+<li><a href="#">Garantie</a></li>
+<li><a href="#">Veelgestelde vragen</a></li>
+<li><a href="#">B2B</a></li>
+</ul>
+</div>
+
+<div class="menu__column">
+
+<ul>
+	<li><p><div class="headfoot">ALGEMENE INFORMATIE</div></p></li>
+<li><a href="#">Portofoons</a></li>
+<li><a href="#">Toepassingen</a></li>
+<li><a href="#">Algemene voorwaarden</a></li>
+<li><a href="#">Betalen en Verzenden</a></li>
+<li><a href="#">Privacy en Cookies</a></li>
+<li><a href="#">Disclaimer</a></li>
+</ul>
+</div>
+
+<div class="menu__column">
+
+<ul>
+	<li><p><div class="headfoot">NIEUWSBRIEF</div></p></li>
+<li><p>Wilt u op de hoogte gehouden <br> worden van de nieuwste <br>Technieken & Aanbiedingen op het <br>gebied van Portofoons?</p></li>
+
+<li><div class="block newsletter">
+    <div class="title"><strong><?= $block->escapeHtml(__('Newsletter')) ?></strong></div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="<?= $block->escapeUrl($block->getFormActionUrl()) ?>"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <div class="control">
+                    <label for="newsletter">
+                        <span class="label">
+                            <?= $block->escapeHtml(__('Sign Up for Our Newsletter:')) ?>
+                        </span>
+                        <input name="email" type="email" id="newsletter"
+                               placeholder="<?= $block->escapeHtmlAttr(__('Enter your email address')) ?>"
+                               data-mage-init='{"mage/trim-input":{}}'
+                               data-validate="{required:true, 'validate-email':true}"
+                        />
+                    </label>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary"
+                        title="<?= $block->escapeHtmlAttr(__('Subscribe')) ?>"
+                        type="submit"
+                        aria-label="Subscribe">
+                    <span><?= $block->escapeHtml(__('Subscribe')) ?></span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div></li>
+<br>
+<div class="imgfoot">
+
+
+    <li><img src="{{media url="Smartportofoon_Logofooter.png"}}" alt="" width="115" height="22"></li>
+
+
+    <li><img src="{{media url="fbtweetfooter.png"}}" alt="" width="44" height="22"></li>
+
+</div>
+
+
+
+
+</ul>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+       <head>
+        <css src="Devchannel_HelloWorld::css/owlcarousel/owl.carousel.min.css"/>
+        <css src="Devchannel_HelloWorld::css/owlcarousel/owl.theme.default.min.css"/>
+   </head> 
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="devchannel.index.index"
+                   template="Devchannel_HelloWorld::helloworld.phtml" />
+        </referenceContainer>
+    </body>
+</page>
